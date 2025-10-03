@@ -1,0 +1,6 @@
+#!/bin/bash
+
+awk -F, '{print $1, $2, $3, $4, $5, $6}' sales_data.csv > ~/data_pipeline/output/cleaned_sales_data.csv
+
+echo "Data Cleaning and Preprocesses Done"
+
